@@ -27,20 +27,26 @@ const nuevoModulo = 21 % 5 === 1;
 
 function devolverString(str) {
   // "Return" la string provista: str
+  let letras = str
   // Tu código:
-  
+  return letras
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
+  let num1 = x;
+  let num2 = y;
+
+  return num1+num
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  
+  let resta = y-x
+  return resta
 }
 
 function multiplica(x, y) {
