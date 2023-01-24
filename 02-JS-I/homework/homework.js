@@ -39,13 +39,15 @@ function suma(x, y) {
   let num1 = x;
   let num2 = y;
 
-  return num1+num
+  return num1 + num2
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  let resta = y-x
+  let a = x
+  let b = y
+  let resta = b - a
   return resta
 }
 
